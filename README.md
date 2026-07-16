@@ -87,9 +87,9 @@
 ---
 
 ## 🏆 Projects
-
 <table>
 <tr>
+
 <td width="72%" valign="top">
 
 ### 🔹 **RBAC Authentication & Authorization System**
@@ -100,7 +100,22 @@
 - Designed scalable relational database schemas with optimized backend workflows.
 - Strengthened expertise in backend architecture, API security, database design, and access control.
 
+</td>
+
+<td width="28%" align="center">
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/rbac.jpeg" width="250"/>
+
+</td>
+
+</tr>
+</table>
+
 ---
+<table>
+<tr>
+
+<td width="72%" valign="top">
 
 ### 🔹 **Chef – AI Software Engineering Assistant**
 *Python • LangGraph • LangChain • Groq LLMs*
@@ -110,7 +125,22 @@
 - Integrated **Groq LLMs**, LangChain, and tool-calling to generate, update, and manage project files through an interactive workflow.
 - Gained hands-on experience with **LLM orchestration, multi-agent systems, prompt engineering, and AI-powered software automation.**
 
+</td>
+
+<td width="28%" align="center">
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/chef.png" width="250"/>
+
+</td>
+
+</tr>
+</table>
+
 ---
+<table>
+<tr>
+
+<td width="72%" valign="top">
 
 ### 🔹 **Observo – AI-Based Violence Detection System**
 *Python • YOLO • OpenCV • Computer Vision*
@@ -122,11 +152,12 @@
 
 </td>
 
-<td width="28%" align="center" valign="top">
+<td width="28%" align="center">
 
-<img src="https://i.pinimg.com/originals/83/4f/38/834f3887bde180c0d471f00389466b9c.gif" width="260"/>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/observo.jpeg" width="250"/>
 
 </td>
+
 </tr>
 </table>
 ---
