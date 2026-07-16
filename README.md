@@ -160,10 +160,12 @@
 
 </tr>
 </table>
+
 ---
 ## 🚀 Experience
 
 <img align="right" margin-top="auto" alt="coding" width=170 height=150 boder-radius=10 src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/hackonhills6.0.jpg">
+---
 
 ### 🔹 **1st RANK in HACKATHON**
 
