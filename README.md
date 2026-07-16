@@ -23,10 +23,10 @@
 
 🌱 Exploring Distributed Systems, Cloud Computing, System Design, and Production-ready AI applications.
 
-⚡ Interested in Full Stack Development, Machine Learning, Computer Vision, Backend Engineering, and Open Source.
----
+## ⚡ Interested in Full Stack Development, Machine Learning, Computer Vision, Backend Engineering, and Open Source.
 
 ## 🏅 Badges
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
@@ -88,61 +88,80 @@
 
 ## 🏆 Projects
 
-<img align="right" alt="coding" width=300 height=350 boder-radius=10 src="https://i.pinimg.com/originals/83/4f/38/834f3887bde180c0d471f00389466b9c.gif">
+<img align="right" alt="coding" width="300" height="350" src="https://i.pinimg.com/originals/83/4f/38/834f3887bde180c0d471f00389466b9c.gif">
 
-### 🔹 **Observo - AI-Based Violence Detection System**
-- Detects violent activities using CCTV footage 
-- Sends real-time alerts to security teams.
+### 🔹 **RBAC Authentication & Authorization System**
 
+_Express.js • PostgreSQL • REST APIs_
 
-### 🔹 **ADAMS - Animal Doctor Advanced Management System**
-- A responsive web app for managing veterinary clinic data.
-- Stores patient records & medicine inventory.
-- Automates medicine expiry notifications via email.
-
-### 🔹 **Caesar Cipher Encryption Tool**
-- Web-based tool for encrypting & decrypting messages using the Caesar cipher.
-- Automatically generates keys if not provided.
+- Built a backend system implementing **Role-Based Access Control (RBAC)** for multi-level approval workflows.
+- Developed secure authentication, authorization, employee hierarchy management, and REST APIs.
+- Designed scalable relational database schemas with optimized backend workflows.
+- Strengthened expertise in backend architecture, API security, database design, and access control.
 
 ---
+
+### 🔹 **Chef – AI Software Engineering Assistant**
+
+_Python • LangGraph • LangChain • Groq LLMs_
+
+- Developed an **Agentic AI software engineering assistant** that transforms natural language prompts into complete software projects.
+- Built collaborative **Planner, Architect, and Coder** agents using LangGraph for autonomous project planning and code generation.
+- Integrated **Groq LLMs**, LangChain, and tool-calling to generate, update, and manage project files through an interactive workflow.
+- Gained hands-on experience with **LLM orchestration, multi-agent systems, prompt engineering, and AI-powered software automation.**
+
+---
+
+### 🔹 **Observo – AI-Based Violence Detection System**
+
+_Python • YOLO • OpenCV • Computer Vision_
+
+- Developed an AI-powered real-time violence detection system for CCTV surveillance.
+- Utilized **YOLO** for fast object detection and computer vision-based threat analysis.
+- Designed an alert pipeline for rapid incident detection and security monitoring.
+- Focused on scalable AI inference and real-time monitoring for smart surveillance systems.
+
+---
+
 ## 🚀 Experience
 
 <img align="right" margin-top="auto" alt="coding" width=170 height=150 boder-radius=10 src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/hackonhills6.0.jpg">
 
 ### 🔹 **1st RANK in HACKATHON**
 
-  - 1st rank in HACK ON HILLS 6.0 in IoT Track at NIT HAMIRPUR
-  - Build Hybrid model of OBSERVO
-  - Hybrid of ai model and iot setup
-  - Introduced cloud based server mid project to increase the cost management efficiency
-    
+- 1st rank in HACK ON HILLS 6.0 in IoT Track at NIT HAMIRPUR
+- Build Hybrid model of OBSERVO
+- Hybrid of ai model and iot setup
+- Introduced cloud based server mid project to increase the cost management efficiency
+
 <img align="right" margin-top="auto" alt="coding" width=170 height=150 boder-radius=10 src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/TechSPHERE-img.jpg">
 
 ### 🔹 **TechSPHERE**
 
-  - Conducted a Github & Kaggle Worskhop by TechSPHERE.
-  - 2 Days workshop.
-  - Introduced freshers with github and kaggle.
-  - Guided them to build a diabetes diagnosis model using pyLibs.
-    
+- Conducted a Github & Kaggle Worskhop by TechSPHERE.
+- 2 Days workshop.
+- Introduced freshers with github and kaggle.
+- Guided them to build a diabetes diagnosis model using pyLibs.
+
 <img align="right" margin-top="auto" alt="coding" width=170 height=150 boder-radius=10 src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/hackkrmu-img.jpg">
 
 ### 🔹 **Hackkrmu**
-  - Participated in a National Level 52-Hours Coding competition and competed with Top tier programmers and developers till Last round.
-  - Gained a quality experience to work under intense stress.
-  - Certif( shared below ).
-  
+
+- Participated in a National Level 52-Hours Coding competition and competed with Top tier programmers and developers till Last round.
+- Gained a quality experience to work under intense stress.
+- Certif( shared below ).
+
 <img align="right" margin-top="auto" alt="coding" width=170 height=150 boder-radius=10 src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/grastech-img.jpg">
 
 ### 🔹 **GrasTECH**
 
-  - Summer internship in Cybersecurity field under GrasTECH.
-  - 2 months training in Linux.
-  - Build my 'SAY' encryption & decryption project under this internship.
-  - certif( shared below ).
-    
-    
+- Summer internship in Cybersecurity field under GrasTECH.
+- 2 months training in Linux.
+- Build my 'SAY' encryption & decryption project under this internship.
+- certif( shared below ).
+
 ---
+
 ## 📈 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashmalik2004&show_icons=true&theme=dark)
@@ -202,13 +221,13 @@
       </div>
     </div>
 
-
   </div>
 </section>
 
 ---
 
 ## 🔗 Connect with Me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-malik-a03559322?)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yashmalik2004)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashmalik4832004two@example.com)
