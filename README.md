@@ -1,9 +1,13 @@
-<a href="https://github.com/Yashmalik2004/Yashmalik2004">
+<a href="https://github.com/Yashmalik2004">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/dark.svg">
-    <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/light.svg">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/dark.svg">
+
+    <img
+      alt="GitHub Profile README"
+      src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/light.svg">
   </picture>
-  
 </a>
 
 ## 🚀 About Me
