@@ -200,91 +200,58 @@
     
     
 ---
-## 📊 GitHub Analytics
+## 📈 GitHub Stats
 
-<p align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashmalik2004&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashmalik2004&layout=compact&theme=dark)
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yashmalik2004&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashmalik2004&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=Yashmalik2004&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashmalik2004&theme=tokyo-night&hide_border=true"/>
-
-</p>
 ---
 ## 🏆 Certificates
 
 <table>
 <tr>
 
-<td align="center" width="50%">
+<td align="center" width="33%">
 <b>🥇 Hack on Hills 6.0</b><br>
-<i>NIT Hamirpur</i><br><br>
-
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/Hoh6.0.jpg" width="320">
-
+<sub>NIT Hamirpur</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/Hoh6.0.jpg" width="240">
 </td>
 
-<td align="center" width="50%">
+<td align="center" width="33%">
 <b>🚀 Build OBSERVO</b><br>
-<i>HackKRMU</i><br><br>
+<sub>HackKRMU</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/hackkrmu.jpg" width="240">
+</td>
 
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/hackkrmu.jpg" width="320">
-
+<td align="center" width="33%">
+<b>💻 C++ Completion</b><br>
+<sub>Udemy</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/cpp-Completion.jpg" width="240">
 </td>
 
 </tr>
 
 <tr>
-
-<td align="center">
-<b>💻 C++ Completion</b><br>
-<i>Udemy</i><br><br>
-
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/cpp-Completion.jpg" width="320">
-
-</td>
 
 <td align="center">
 <b>📚 GitHub & Kaggle Workshop</b><br>
-<i>TechSPHERE</i><br><br>
-
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/github-laggle%20workshop.jpg" width="320">
-
+<sub>TechSPHERE</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/github-laggle%20workshop.jpg" width="240">
 </td>
-
-</tr>
-
-<tr>
 
 <td align="center">
 <b>🛡 Cybersecurity Internship</b><br>
-<i>GrasTECH</i><br><br>
-
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/grastech-certif.jpg" width="320">
-
+<sub>GrasTECH</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/grastech-certif.jpg" width="240">
 </td>
 
 <td align="center">
 <b>🌍 SEEK Program</b><br>
-<i>UNESCO MGIEP</i><br><br>
-
-<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/seek-img.jpg" width="320">
-
+<sub>UNESCO MGIEP</sub><br><br>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/seek-img.jpg" width="240">
 </td>
 
 </tr>
-
 </table>
 ---
 
