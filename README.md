@@ -206,63 +206,70 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashmalik2004&layout=compact&theme=dark)
 
 ---
+## 🏆 Certificates
 
-<section class="bg-black py-10">
-  <h2 class="text-white text-2xl font-bold text-left mb-8">Certificates</h2>
-  <div class="certificates-container">
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">1. 1st in Hack on Hills 6.0, NIT</h3>
-        <p class="text-sm text-gray-600">-Issued by NIT Hamirpur</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/Hoh6.0.jpg" alt="Data Science Professional Certificate" class="w-full">
-        <hr>
-      </div>
-    </div>
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">2. Build OBSERVO</h3>
-        <p class="text-sm text-gray-600">-Issued by HACKKRMU.</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/hackkrmu.jpg" alt="Data Science Professional Certificate" class="w-full">
-        <hr>
-      </div>
-    </div>
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">3. Completion of C++</h3>
-        <p class="text-sm text-gray-600">-Issued by UDEMY</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/cpp-Completion.jpg" alt="Machine Learning Certification" class="w-full">
-        <hr>
-      </div>
-    </div>
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">4. GitHUB & Kaggle Workshop</h3>
-        <p class="text-sm text-gray-600">-Issued by TechSPHERE</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/github-laggle%20workshop.jpg" alt="Deep Learning Specialization" class="w-full">
-        <hr>
-      </div>
-    </div>
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">5. CyberSecuity</h3>
-        <p class="text-sm text-gray-600">-Issued by GrasTECH</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/grastech-certif.jpg" alt="Deep Learning Specialization" class="w-full">
-        <hr>
-      </div>
-    </div>
-    <div class="certificate">
-      <div class="p-4">
-        <h3 class="text-lg font-bold mb-2">6. SEEK:Self directed emotional learning for empathy and kindness</h3>
-        <p class="text-sm text-gray-600">-Issued by UNSECO MGIEP</p>
-      <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/seek-img.jpg" alt="Deep Learning Specialization" class="w-full">
-        <hr>
-      </div>
-    </div>
+<table>
+<tr>
 
+<td align="center" width="50%">
+<b>🥇 Hack on Hills 6.0</b><br>
+<i>NIT Hamirpur</i><br><br>
 
-  </div>
-</section>
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/Hoh6.0.jpg" width="320">
 
+</td>
+
+<td align="center" width="50%">
+<b>🚀 Build OBSERVO</b><br>
+<i>HackKRMU</i><br><br>
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/hackkrmu.jpg" width="320">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+<b>💻 C++ Completion</b><br>
+<i>Udemy</i><br><br>
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/cpp-Completion.jpg" width="320">
+
+</td>
+
+<td align="center">
+<b>📚 GitHub & Kaggle Workshop</b><br>
+<i>TechSPHERE</i><br><br>
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/imgs/github-laggle%20workshop.jpg" width="320">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+<b>🛡 Cybersecurity Internship</b><br>
+<i>GrasTECH</i><br><br>
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/grastech-certif.jpg" width="320">
+
+</td>
+
+<td align="center">
+<b>🌍 SEEK Program</b><br>
+<i>UNESCO MGIEP</i><br><br>
+
+<img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/certifs/seek-img.jpg" width="320">
+
+</td>
+
+</tr>
+
+</table>
 ---
 
 ## 🔗 Connect with Me
