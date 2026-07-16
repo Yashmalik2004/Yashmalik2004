@@ -24,6 +24,7 @@
 🌱 Exploring Distributed Systems, Cloud Computing, System Design, and Production-ready AI applications.
 
 ⚡ Interested in Full Stack Development, Machine Learning, Computer Vision, Backend Engineering, and Open Source.
+
 ---
 
 ## 🏅 Badges
