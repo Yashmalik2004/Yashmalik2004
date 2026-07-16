@@ -1,14 +1,17 @@
-<a href="https://github.com/Yashmalik2004">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/dark.svg">
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/dark.svg">
 
-    <img
-      alt="GitHub Profile README"
-      src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/light.svg">
-  </picture>
-</a>
+  <img
+    src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/light.svg"
+    alt="GitHub Profile Banner">
+</picture> -->
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/edits/graphic-stat/dark.svg"
+    alt="Profile Banner"
+    width="100%">
+</p>
 
 ## 🚀 About Me
 🎓 B.Tech in Computer Science & Engineering (CSE)  
