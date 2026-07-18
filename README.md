@@ -33,9 +33,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Full+Stack+Development+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" />
 </p> -->
 <p align="center">
-    <img
-        src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/terminal/about.svg"
-        width="900"/>
+  <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/terminal/about.svg" width="900"/>
 </p>
 
 ---

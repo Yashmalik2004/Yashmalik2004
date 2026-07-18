@@ -1,105 +1,96 @@
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="900"
-    height="320"
-    viewBox="0 0 900 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+
+    <defs>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2.5" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
 
     <style>
-        .bg{
+        .window{
             fill:#0D1117;
             stroke:#30363D;
             stroke-width:1;
         }
 
-        .title{
-            fill:#8B949E;
-            font:600 14px 'Fira Code', monospace;
+        .header{
+            fill:#161B22;
         }
 
-        .text{
-            fill:#E6EDF3;
-            font:18px 'Fira Code', monospace;
+        .title{
+            fill:#8B949E;
+            font:600 14px "Fira Code", monospace;
         }
 
         .prompt{
             fill:#00E5FF;
-            font:700 18px 'Fira Code', monospace;
+            font:700 18px "Fira Code", monospace;
+        }
+
+        .text{
+            fill:#E6EDF3;
+            font:18px "Fira Code", monospace;
         }
 
         .cursor{
             fill:#00E5FF;
+            filter:url(#glow);
+            animation:blink 1s infinite;
+        }
+
+        @keyframes blink{
+            0%,45%{opacity:1}
+            46%,100%{opacity:0}
         }
     </style>
 
     <!-- Window -->
-
-    <rect
-        x="1"
-        y="1"
-        width="898"
-        height="318"
-        rx="12"
-        class="bg"/>
+    <rect class="window" x="1" y="1" rx="12" width="898" height="358"/>
 
     <!-- Header -->
+    <rect class="header" x="1" y="1" width="898" height="42"/>
 
-    <rect
-        x="1"
-        y="1"
-        width="898"
-        height="42"
-        fill="#161B22"/>
-
-    <!-- Buttons -->
-
+    <!-- Traffic lights -->
     <circle cx="24" cy="22" r="6" fill="#FF5F56"/>
     <circle cx="46" cy="22" r="6" fill="#FFBD2E"/>
     <circle cx="68" cy="22" r="6" fill="#27C93F"/>
 
-    <text
-        x="770"
-        y="27"
-        class="title">
-        about.sh
-    </text>
+    <text x="770" y="27" class="title">about.sh</text>
 
-    <!-- Terminal -->
+    <!-- Content -->
 
     <text x="30" y="75" class="prompt">$ whoami</text>
+    <text x="50" y="105" class="text">Full Stack Developer (MERN) &amp; AI Engineer</text>
 
-    <text x="50" y="105" class="text">
-        Full Stack Developer (MERN) &amp; AI Engineer
-    </text>
+    <text x="30" y="145" class="prompt">$ cat current_focus.txt</text>
+    <text x="50" y="175" class="text">Building AI-powered software with LLMs &amp; Agentic AI</text>
 
-    <text x="30" y="145" class="prompt">
-        $ cat current_focus.txt
-    </text>
+    <text x="30" y="215" class="prompt">$ tree expertise</text>
 
-    <text x="50" y="175" class="text">
-        Building AI-powered software with LLMs &amp; Agentic AI
-    </text>
+    <text x="50" y="245" class="text">.</text>
+    <text x="50" y="270" class="text">├── Backend Architecture</text>
+    <text x="50" y="295" class="text">├── Distributed Systems</text>
+    <text x="50" y="320" class="text">├── Cloud Computing</text>
+    <text x="50" y="345" class="text">└── Machine Learning / Computer Vision</text>
 
-    <text x="30" y="215" class="prompt">
-        $ ls expertise/
-    </text>
+    <!-- Prompt -->
+    <text x="560" y="345" class="prompt">$</text>
 
-    <text x="50" y="245" class="text">
-        backend/ &nbsp; distributed-systems/
-    </text>
+    <rect class="cursor"
+          x="575"
+          y="331"
+          width="12"
+          height="18">
 
-    <text x="50" y="270" class="text">
-        cloud/ &nbsp; machine-learning/ &nbsp; computer-vision/
-    </text>
+        <animate attributeName="opacity"
+                 values="1;0;1"
+                 dur="1s"
+                 repeatCount="indefinite"/>
 
-    <text x="30" y="305" class="prompt">
-        $
-    </text>
-
-    <rect
-        x="42"
-        y="292"
-        width="10"
-        height="18"
-        class="cursor"/>
+    </rect>
 
 </svg>
