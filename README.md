@@ -6,7 +6,7 @@
     src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/light.svg"
     alt="GitHub Profile Banner">
 </picture> -->
-<h2 align="center">
+<!-- <h2 align="center">
   <code>yash@github ~ $ ./contributions.sh</code>
 </h2>
 
@@ -16,7 +16,7 @@
         width="900"
         alt="Contribution Grid"
     />
-</p>
+</p> -->
 
 <p align="center">
   <img
