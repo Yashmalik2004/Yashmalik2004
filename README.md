@@ -13,6 +13,10 @@
     width="100%">
 </p>
 
+<p align="center">
+  <i>If it can be automated,</i><br/><i>it probably should be.</i>
+</p>
+
 ---
 
 ##  🚀 About Me
@@ -22,6 +26,7 @@
 </p>
 
 ---
+
 ## Badges
 
 <p align="center">
@@ -58,7 +63,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Tech Stack</b>
 
 <img align="right" alt="Coding" width="300" src="https://media0.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif">
 
@@ -222,7 +227,8 @@
     
     
 ---
-## 📊 GitHub Analytics
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
 <p align="center">
 
@@ -237,7 +243,8 @@
 </p>
 
 ---
-## 📊 Profile Summary
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Profile Summary </b>
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Yashmalik2004&theme=tokyonight" width="96%"/>
@@ -311,10 +318,28 @@
 
 ---
 
-## 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-malik-a03559322?)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yashmalik2004)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashmalik4832004two@example.com)
+
+## Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/yash-malik-a03559322" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:yashmalik4832004two@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Mail_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://www.xyz.in/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-a855f7?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/yyashmalikk/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+</p>
+
+<br/>
 
 ---
 
