@@ -1,0 +1,60 @@
+:root{
+    --bg:#0D1117;
+    --border:#30363D;
+    --text:#E6EDF3;
+    --accent:#00E5FF;
+    --muted:#8B949E;
+}
+
+body{
+    margin:0;
+    background:var(--bg);
+    font-family:"Fira Code",monospace;
+}
+
+.terminal{
+    width:900px;
+    background:var(--bg);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.titlebar{
+    height:42px;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+    border-bottom:1px solid var(--border);
+}
+
+.buttons{
+    display:flex;
+    gap:8px;
+}
+
+.dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+}
+
+.red{background:#FF5F56;}
+.yellow{background:#FFBD2E;}
+.green{background:#27C93F;}
+
+.content{
+    padding:24px;
+    color:var(--text);
+    font-size:18px;
+    line-height:1.8;
+}
+
+.prompt{
+    color:var(--accent);
+    font-weight:700;
+}
+
+.cursor{
+    color:var(--accent);
+}
