@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
 
     <defs>
         <filter id="glow">
@@ -39,22 +39,25 @@
         .cursor{
             fill:#00E5FF;
             filter:url(#glow);
-            animation:blink 1s infinite;
-        }
-
-        @keyframes blink{
-            0%,45%{opacity:1}
-            46%,100%{opacity:0}
         }
     </style>
 
     <!-- Window -->
-    <rect class="window" x="1" y="1" rx="12" width="898" height="358"/>
+    <rect class="window"
+        x="1"
+        y="1"
+        rx="12"
+        width="898"
+        height="558"/>
 
     <!-- Header -->
-    <rect class="header" x="1" y="1" width="898" height="42"/>
+    <rect class="header"
+        x="1"
+        y="1"
+        width="898"
+        height="42"/>
 
-    <!-- Traffic lights -->
+    <!-- Traffic Lights -->
     <circle cx="24" cy="22" r="6" fill="#FF5F56"/>
     <circle cx="46" cy="22" r="6" fill="#FFBD2E"/>
     <circle cx="68" cy="22" r="6" fill="#27C93F"/>
@@ -67,29 +70,39 @@
     <text x="50" y="105" class="text">Full Stack Developer (MERN) &amp; AI Engineer</text>
 
     <text x="30" y="145" class="prompt">$ cat current_focus.txt</text>
-    <text x="50" y="175" class="text">Building AI-powered software with LLMs &amp; Agentic AI</text>
 
-    <text x="30" y="215" class="prompt">$ tree expertise</text>
+    <text x="50" y="175" class="text">Building AI-powered software with LLMs &amp; Agentic AI.</text>
 
-    <text x="50" y="245" class="text">.</text>
-    <text x="50" y="270" class="text">├── Backend Architecture</text>
-    <text x="50" y="295" class="text">├── Distributed Systems</text>
-    <text x="50" y="320" class="text">├── Cloud Computing</text>
-    <text x="50" y="345" class="text">└── Machine Learning / Computer Vision</text>
+    <text x="50" y="215" class="text">Building production-ready software with an emphasis on</text>
+    <text x="70" y="240" class="text">performance, scalability, and maintainability.</text>
+
+    <text x="50" y="280" class="text">Designing backend systems with a focus on APIs,</text>
+    <text x="70" y="305" class="text">microservices, databases, and system design.</text>
+
+    <!-- Tree -->
+
+    <text x="30" y="345" class="prompt">$ tree expertise</text>
+
+    <text x="50" y="375" class="text">.</text>
+    <text x="50" y="400" class="text">├── Backend Architecture</text>
+    <text x="50" y="425" class="text">├── Distributed Systems</text>
+    <text x="50" y="450" class="text">├── Cloud Computing</text>
+    <text x="50" y="475" class="text">└── Machine Learning / Computer Vision</text>
 
     <!-- Prompt -->
-    <text x="560" y="345" class="prompt">$</text>
+
+    <text x="30" y="525" class="prompt">$</text>
 
     <rect class="cursor"
-          x="575"
-          y="331"
-          width="12"
-          height="18">
+        x="45"
+        y="511"
+        width="12"
+        height="18">
 
         <animate attributeName="opacity"
-                 values="1;0;1"
-                 dur="1s"
-                 repeatCount="indefinite"/>
+                values="1;0;1"
+                dur="1s"
+                repeatCount="indefinite"/>
 
     </rect>
 
