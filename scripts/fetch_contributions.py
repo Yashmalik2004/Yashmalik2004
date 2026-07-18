@@ -44,23 +44,40 @@ days = []
 # -------------------------
 # PARSE CELLS
 # -------------------------
+# -------------------------
+# PARSE CELLS
+# -------------------------
 
-for rect in soup.select("rect[data-date]"):
+days = []
 
-    date = rect.get("data-date")
+cells = soup.select("td[data-date]")
 
-    count = int(rect.get("data-count", 0))
+for cell in cells:
 
-    level = int(rect.get("data-level", 0))
+    date = cell["data-date"]
 
-    days.append(
-        {
-            "date": date,
-            "count": count,
-            "level": level,
-        }
-    )
+    level = int(cell.get("data-level", 0))
 
+    tooltip = soup.find("tool-tip", attrs={"for": cell["id"]})
+
+    count = 0
+
+    if tooltip:
+        text = tooltip.get_text(strip=True)
+
+        if "No contributions" not in text:
+            try:
+                count = int(text.split()[0])
+            except:
+                count = 0
+
+    days.append({
+        "date": date,
+        "count": count,
+        "level": level
+    })
+
+print(f"Parsed {len(days)} contribution cells")
 # -------------------------
 # STATS
 # -------------------------
