@@ -22,7 +22,15 @@
 ##  🚀 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=170&lines=Full+Stack+Developer+(MERN)+%26+AI+Engineer;Building+AI-powered+software+with+LLMs+%26+Agentic+AI;Modern+Backend+Architectures+%7C+Production-ready+AI+Systems;Distributed+Systems+%7C+Cloud+Computing+%7C+System+Design;Full+Stack+Development+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Full+Stack+Developer+(MERN)+%26+AI+Engineer" alt="Typing SVG" />
+</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Building+AI-powered+software+with+LLMs+%26+Agentic+AI" alt="Typing SVG" />
+</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Modern+Backend+Architectures+%7C+Production-ready+AI+Systems" alt="Typing SVG" />
+</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Distributed+Systems+%7C+Cloud+Computing+%7C+System+Design" alt="Typing SVG" />
+</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=19&duration=900&pause=300&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=35&lines=Full+Stack+Development+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" />
 </p>
 
 ---
