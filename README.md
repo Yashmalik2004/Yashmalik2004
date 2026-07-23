@@ -261,28 +261,28 @@
 
 <!-- Card 1 — Hero Overview -->
 <p align="center">
-  <img src="https://yashmalik2004-git-main-yashmalik2004s-projects.vercel.app/api/cards/overview?username=Yashmalik2004"
+  <img src="https://yashmalik2004.vercel.app/api/cards/overview?username=Yashmalik2004"
        alt="GitHub Overview Card" width="495"/>
 </p>
 
 <!-- Cards 2 & 3 — Languages + Stats (side by side) -->
 <p align="center">
-  <img src="https://yashmalik2004-git-main-yashmalik2004s-projects.vercel.app/api/cards/languages?username=Yashmalik2004"
+  <img src="https://yashmalik2004.vercel.app/api/cards/languages?username=Yashmalik2004"
        alt="Top Languages" width="495"/>
   &nbsp;
-  <img src="https://yashmalik2004-git-main-yashmalik2004s-projects.vercel.app/api/cards/stats?username=Yashmalik2004"
+  <img src="https://yashmalik2004.vercel.app/api/cards/stats?username=Yashmalik2004"
        alt="GitHub Stats" width="495"/>
 </p>
 
 <!-- Card 4 — Activity (bar charts) -->
 <p align="center">
-  <img src="https://yashmalik2004-git-main-yashmalik2004s-projects.vercel.app/api/cards/activity?username=Yashmalik2004"
+  <img src="https://yashmalik2004.vercel.app/api/cards/activity?username=Yashmalik2004"
        alt="Activity Chart" width="495"/>
 </p>
 
 <!-- Card 6 — Streak (local computation, no third-party API) -->
 <p align="center">
-  <img src="https://yashmalik2004-git-main-yashmalik2004s-projects.vercel.app/api/cards/streak?username=Yashmalik2004"
+  <img src="https://yashmalik2004.vercel.app/api/cards/streak?username=Yashmalik2004"
        alt="Contribution Streak" width="495"/>
 </p>
 
