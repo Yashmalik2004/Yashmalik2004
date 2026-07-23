@@ -49,7 +49,7 @@ export function cardShell(opts: CardShellOptions, inner: string): string {
     fill="none" stroke="${t.borderColor}" stroke-width="1" />
 
   <!-- Gradient accent top bar -->
-  <rect width="${w}" height="3" rx="${t.borderRadius}" rx="${t.borderRadius}"
+  <rect width="${w}" height="3" rx="${t.borderRadius}"
     fill="url(#accentGrad)" />
 
   ${opts.title ? titleRow(opts.title, opts.titleIcon) : ""}
