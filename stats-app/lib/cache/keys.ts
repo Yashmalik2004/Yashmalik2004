@@ -15,5 +15,5 @@ export type CardName = "overview" | "languages" | "stats" | "activity" | "streak
  * @example cacheKey("overview", "Yashmalik2004") → "ghstats:v1:overview:Yashmalik2004"
  */
 export function cacheKey(card: CardName, username: string): string {
-  return `ghstats:v1:${card}:${username.toLowerCase()}`;
+  return `ghstats:v2:${card}:${username.toLowerCase()}`;
 }

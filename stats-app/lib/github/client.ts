@@ -158,15 +158,16 @@ export async function fetchOverviewData(login: string): Promise<OverviewData> {
  * Returns top-5 languages with byte counts and percentages.
  */
 export async function fetchLanguagesData(login: string): Promise<LanguagesData> {
-  const user = await graphql<GQLLanguagesResponse["repositories"]>(
+  const user = await graphql<GQLLanguagesResponse>(
     LANGUAGES_QUERY,
     { login }
   );
 
   // Aggregate language bytes across repos
   const byteMap = new Map<string, { bytes: number; color: string }>();
-  for (const repo of (user as { nodes: Array<{ languages: { edges: Array<{ size: number; node: { name: string; color: string } }> } | null }> }).nodes) {
-    if (!repo.languages) continue;
+  const repos = user?.repositories?.nodes ?? [];
+  for (const repo of repos) {
+    if (!repo?.languages?.edges) continue;
     for (const edge of repo.languages.edges) {
       const existing = byteMap.get(edge.node.name);
       if (existing) {
