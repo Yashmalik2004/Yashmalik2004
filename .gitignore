@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+stats-app/node_modules/
+stats-app/.next/
+stats-app/out/
+stats-app/coverage/
+stats-app/tsconfig.tsbuildinfo
+
+# Next.js build artifacts
+.next/
+
+# Environment variables
+.env.local
+.env.*.local
+stats-app/.env.local
+stats-app/.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
