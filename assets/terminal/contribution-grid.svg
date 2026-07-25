@@ -383,7 +383,7 @@ to{opacity:1;transform:translateY(0);}
 <rect x="768" y="82" width="11" height="11" rx="2" fill="#0E4429" class="cell" style="animation-delay:2.94s"><title>2026-07-04 : 3</title></rect>
 <rect x="768" y="96" width="11" height="11" rx="2" fill="#0E4429" class="cell" style="animation-delay:2.94s"><title>2026-07-11 : 2</title></rect>
 <rect x="768" y="110" width="11" height="11" rx="2" fill="#39D353" class="cell" style="animation-delay:2.95s"><title>2026-07-18 : 13</title></rect>
-<rect x="768" y="124" width="11" height="11" rx="2" fill="#161B22" class="cell" style="animation-delay:2.96s"><title> : 0</title></rect>
+<rect x="768" y="124" width="11" height="11" rx="2" fill="#161B22" class="cell" style="animation-delay:2.96s"><title>2026-07-25 : 0</title></rect>
 <text x="20" y="156" class="small">Less</text>
 <rect x="58" y="145" width="11" height="11" rx="2" fill="#161B22"/>
 <rect x="76" y="145" width="11" height="11" rx="2" fill="#0E4429"/>
@@ -391,5 +391,5 @@ to{opacity:1;transform:translateY(0);}
 <rect x="112" y="145" width="11" height="11" rx="2" fill="#26A641"/>
 <rect x="130" y="145" width="11" height="11" rx="2" fill="#39D353"/>
 <text x="158" y="156" class="small">More</text>
-<text x="20" y="162" class="small">383 contributions • Current streak: 4 • Longest streak: 4</text>
+<text x="20" y="162" class="small">383 contributions • Current streak: 0 • Longest streak: 4</text>
 </svg>
