@@ -244,7 +244,9 @@
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=Yashmalik2004&theme=tokyonight&hide_border=true"/>
+<a href="https://github.com/Yashmalik2004/Yashmalik2004">
+  <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/stats/github-stats.svg" alt="GitHub Stats Card" width="700"/>
+</a>
 
 </p>
 
