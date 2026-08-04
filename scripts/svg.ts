@@ -56,7 +56,7 @@ const THEME = {
 // ─── Card Dimensions ──────────────────────────────────────────────────────────
 
 const W = 700;  // card width
-const H = 220;  // card height
+const H = 270;  // card height (taller for more breathing room)
 const R = 18;   // corner radius
 const PAD = 24; // internal padding
 
@@ -283,8 +283,8 @@ function renderMetrics(
 function renderIntensityStrip(recentDays: ContributionDay[]): string {
   if (recentDays.length === 0) return "";
 
-  const stripY = 140;          // top of the strip area
-  const stripH = 32;           // max bar height
+  const stripY = 165;          // top of the strip area (pushed down for more breathing room)
+  const stripH = 42;           // max bar height (taller bars fill the extra space)
   const stripBottom = stripY + stripH;
   const stripW = W - PAD * 2;  // available width
 
