@@ -56,7 +56,7 @@ const THEME = {
 // ─── Card Dimensions ──────────────────────────────────────────────────────────
 
 const W = 700;  // card width
-const H = 270;  // card height (taller for more breathing room)
+const H = 320;  // card height (taller for expanded layout)
 const R = 18;   // corner radius
 const PAD = 24; // internal padding
 
@@ -210,8 +210,8 @@ function renderPillar(
   fadeClass: string,
   pillW: number
 ): string {
-  const pillH = 72;
-  const pillY = PAD + 30;
+  const pillH = 80;
+  const pillY = PAD + 32;
   const cx = x + pillW / 2;
 
   return /* svg */ `
@@ -221,21 +221,21 @@ function renderPillar(
       fill="url(#pillar-grad)" stroke="${THEME.borderColor}" stroke-width="1"/>
 
     <!-- Icon -->
-    <text x="${cx}" y="${pillY + 20}"
+    <text x="${cx}" y="${pillY + 22}"
       text-anchor="middle"
-      font-size="16">${esc(icon)}</text>
+      font-size="17">${esc(icon)}</text>
 
     <!-- Large metric number -->
-    <text x="${cx}" y="${pillY + 48}"
+    <text x="${cx}" y="${pillY + 52}"
       text-anchor="middle"
       font-family="${THEME.fontFamily}"
-      font-size="24"
+      font-size="26"
       font-weight="700"
       fill="${color}"
       filter="url(#glow)">${esc(value)}</text>
 
     <!-- Label -->
-    <text x="${cx}" y="${pillY + 64}"
+    <text x="${cx}" y="${pillY + 70}"
       text-anchor="middle"
       font-family="${THEME.fontDisplay}"
       font-size="9"
@@ -283,8 +283,8 @@ function renderMetrics(
 function renderIntensityStrip(recentDays: ContributionDay[]): string {
   if (recentDays.length === 0) return "";
 
-  const stripY = 165;          // top of the strip area (pushed down for more breathing room)
-  const stripH = 42;           // max bar height (taller bars fill the extra space)
+  const stripY = 185;          // top of the strip area (pushed down)
+  const stripH = 50;           // max bar height (taller bars fill the extra space)
   const stripBottom = stripY + stripH;
   const stripW = W - PAD * 2;  // available width
 

@@ -50,7 +50,7 @@ const T = {
 // ─── Dimensions ───────────────────────────────────────────────────────────────
 
 const W   = 900;
-const H   = 340;
+const H   = 400;
 const R   = 18;
 const PAD = 26;
 
@@ -208,8 +208,8 @@ function pillar(
 }
 
 function renderStatRow(data: ProfileData): string {
-  const rowY  = 56;
-  const ph    = 68;
+  const rowY  = 58;
+  const ph    = 78;
   const pw    = Math.floor((W - PAD * 2 - 16) / 5);
   const gap   = (W - PAD * 2 - pw * 5) / 4;
 
@@ -228,7 +228,7 @@ function renderStatRow(data: ProfileData): string {
 }
 
 function renderMetaRow(data: ProfileData): string {
-  const y = 148;
+  const y = 175;
   const items = [
     { label: "Public Repos",  value: String(data.totalRepos),      icon: "📦" },
     { label: "Followers",     value: fmt(data.followers),           icon: "👥" },
@@ -255,10 +255,10 @@ function renderMetaRow(data: ProfileData): string {
 function renderLanguages(langs: LanguageEntry[]): string {
   if (langs.length === 0) return "";
 
-  const sectionY = 184;
+  const sectionY = 222;
   const labelY   = sectionY + 10;
-  const barY     = sectionY + 20;
-  const barH     = 7;
+  const barY     = sectionY + 22;
+  const barH     = 9;
   const barGap   = 1.5;
 
   // --- Full-width segmented color bar ---
@@ -266,7 +266,7 @@ function renderLanguages(langs: LanguageEntry[]): string {
   let barX = PAD;
   const colorBar = langs.map((lang) => {
     const segW = (lang.percentage / 100) * barW;
-    const seg = /* svg */ `<rect x="${barX.toFixed(1)}" y="${barY}" width="${segW.toFixed(1)}" height="${barH}" rx="2" fill="${lang.color}" class="lang-bar"/>`;
+    const seg = /* svg */ `<rect x="${barX.toFixed(1)}" y="${barY}" width="${segW.toFixed(1)}" height="${barH}" rx="2.5" fill="${lang.color}" class="lang-bar"/>`;
     barX += segW + barGap;
     return seg;
   }).join("");
@@ -274,11 +274,11 @@ function renderLanguages(langs: LanguageEntry[]): string {
   // --- Language legend rows (2 columns) ---
   const leftColX  = PAD;
   const rightColX = PAD + (W - PAD * 2) / 2 + 12;
-  const legendY   = barY + barH + 16;
+  const legendY   = barY + barH + 20;
 
   const legend = langs.map((lang, i) => {
     const x   = i % 2 === 0 ? leftColX : rightColX;
-    const y   = legendY + Math.floor(i / 2) * 22;
+    const y   = legendY + Math.floor(i / 2) * 26;
     const pct = lang.percentage.toFixed(1);
 
     return /* svg */ `
