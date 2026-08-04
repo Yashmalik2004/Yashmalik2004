@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Target Node 22 native ESM — no transpilation needed for modern APIs
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Strict type-safety
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Output settings — tsx handles execution; tsc is type-check only
+    "noEmit": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Allow .ts file imports with explicit .js extensions (required by NodeNext)
+    "allowImportingTsExtensions": false,
+
+    // Lib: Node 22 + DOM not needed for pure Node scripts
+    "lib": ["ES2023"]
+  },
+  "include": [
+    "scripts/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "stats-app",
+    "assets"
+  ]
+}

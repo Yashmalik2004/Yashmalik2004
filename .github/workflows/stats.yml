@@ -1,0 +1,73 @@
+name: "📊 Generate GitHub Stats SVG"
+
+# ─── Triggers ──────────────────────────────────────────────────────────────────
+on:
+  # Runs every 6 hours to keep the stats fresh
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Allow manual execution from the Actions tab
+  workflow_dispatch:
+
+# ─── Permissions ──────────────────────────────────────────────────────────────
+permissions:
+  contents: write  # Required to commit the generated SVG back to the repo
+
+# ─── Jobs ─────────────────────────────────────────────────────────────────────
+jobs:
+  generate-stats:
+    name: "Generate Stats Card"
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the full repo so we can commit back
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # 2. Set up Node.js 22 (required for native fetch + ESM)
+      - name: "Setup Node.js 22"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          # Cache the root-level package-lock.json (not stats-app)
+          cache-dependency-path: package-lock.json
+
+      # 3. Install only the scripts pipeline dependencies (tsx + typescript)
+      #    --ignore-scripts prevents any postinstall surprises
+      - name: "Install dependencies"
+        run: npm ci --ignore-scripts
+
+      # 4. Type-check the scripts before running them
+      #    Catches any type errors before we touch the output file
+      - name: "TypeScript type-check"
+        run: npm run type-check
+
+      # 5. Run the generator — fetches from GitHub GraphQL and writes SVG
+      - name: "Generate stats SVG"
+        env:
+          # GITHUB_TOKEN is automatically provided by GitHub Actions
+          # It has read:user scope which is all we need for the contribution calendar
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Your GitHub username — change this if you fork the repo
+          GITHUB_LOGIN: "Yashmalik2004"
+        run: npm run generate
+
+      # 6. Commit and push only if the SVG actually changed
+      #    Uses --quiet to suppress output on no-op runs
+      - name: "Commit changes (if any)"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage only the generated SVG
+          git add assets/stats/github-stats.svg
+
+          # Exit 0 (success) if nothing changed — don't create empty commits
+          git diff --cached --quiet && echo "⏭️  No changes detected, skipping commit." && exit 0
+
+          git commit -m "chore(stats): update github-stats.svg [skip ci]"
+          git push
+          echo "✅ SVG committed and pushed."

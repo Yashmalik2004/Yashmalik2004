@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="700"
+  height="220"
+  viewBox="0 0 700 220"
+  role="img"
+  aria-label="GitHub Contribution Stats Card">
+
+  <title>GitHub Contribution Stats — 1 day streak</title>
+  <desc>
+    Current streak: 1 days.
+    Longest streak: 14 days.
+    Total contributions: 405.
+  </desc>
+
+  
+  <defs>
+    <!-- Google Fonts: Inter + JetBrains Mono -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+      .card-root { overflow: hidden; }
+
+      /* Fade-in animations with staggered delays */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(6px); }
+        to   { opacity: 1; transform: translateY(0);   }
+      }
+      @keyframes shimmer {
+        0%   { stop-color: #bb9af7; }
+        50%  { stop-color: #7dcfff; }
+        100% { stop-color: #bb9af7; }
+      }
+      @keyframes barGrow {
+        from { transform: scaleX(0); transform-origin: left; }
+        to   { transform: scaleX(1); transform-origin: left; }
+      }
+
+      .fi-0 { animation: fadeIn 0.45s ease both; }
+      .fi-1 { animation: fadeIn 0.45s 0.10s ease both; }
+      .fi-2 { animation: fadeIn 0.45s 0.20s ease both; }
+      .fi-3 { animation: fadeIn 0.45s 0.30s ease both; }
+      .fi-4 { animation: fadeIn 0.45s 0.40s ease both; }
+      .fi-5 { animation: fadeIn 0.45s 0.50s ease both; }
+
+      .strip-bar { animation: barGrow 0.6s 0.55s cubic-bezier(.25,.46,.45,.94) both; }
+    </style>
+
+    <!-- Title gradient (animated hue shift) -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#bb9af7"/>
+      <stop offset="50%"  stop-color="#7dcfff"/>
+      <stop offset="100%" stop-color="#9ece6a"/>
+    </linearGradient>
+
+    <!-- Pillar background gradient (subtle top→bottom depth) -->
+    <linearGradient id="pillar-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#222436" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1b2e" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Glow filter for large metric numbers -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Card drop shadow -->
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- === Card === -->
+  
+  <!-- Card shell -->
+  <rect width="700" height="220" rx="18" ry="18"
+    fill="#1a1b27" filter="url(#card-shadow)" class="card-root fi-0"/>
+
+  <!-- Top gradient accent line -->
+  <rect x="18" y="0" width="664" height="2" rx="1"
+    fill="url(#title-grad)" opacity="0.9" class="fi-0"/>
+
+  <!-- Subtle inner border -->
+  <rect x="0.75" y="0.75" width="698.5" height="218.5"
+    rx="17.5" ry="17.5"
+    fill="none" stroke="#292e42" stroke-width="1.5"/>
+  
+  <!-- Header -->
+  <g class="fi-1">
+    <!-- Logo dots (decorative) -->
+    <circle cx="29" cy="36" r="4" fill="#ff9e64" opacity="0.9"/>
+    <circle cx="41" cy="36" r="4" fill="#9ece6a" opacity="0.9"/>
+    <circle cx="53" cy="36" r="4" fill="#7dcfff" opacity="0.9"/>
+
+    <!-- Title -->
+    <text x="69" y="40"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="14"
+      font-weight="700"
+      fill="url(#title-grad)"
+      letter-spacing="0.5">GitHub Contribution Stats</text>
+  </g>
+  
+  <g class="fi-2">
+    <!-- Pillar background -->
+    <rect x="24" y="54" width="212" height="72" rx="10"
+      fill="url(#pillar-grad)" stroke="#292e42" stroke-width="1"/>
+
+    <!-- Icon -->
+    <text x="130" y="74"
+      text-anchor="middle"
+      font-size="16">🔥</text>
+
+    <!-- Large metric number -->
+    <text x="130" y="102"
+      text-anchor="middle"
+      font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace"
+      font-size="24"
+      font-weight="700"
+      fill="#ff9e64"
+      filter="url(#glow)">1</text>
+
+    <!-- Label -->
+    <text x="130" y="118"
+      text-anchor="middle"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="9"
+      font-weight="600"
+      fill="#565f89"
+      letter-spacing="0.8">CURRENT STREAK</text>
+  </g>
+
+  <g class="fi-3">
+    <!-- Pillar background -->
+    <rect x="244" y="54" width="212" height="72" rx="10"
+      fill="url(#pillar-grad)" stroke="#292e42" stroke-width="1"/>
+
+    <!-- Icon -->
+    <text x="350" y="74"
+      text-anchor="middle"
+      font-size="16">🏆</text>
+
+    <!-- Large metric number -->
+    <text x="350" y="102"
+      text-anchor="middle"
+      font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace"
+      font-size="24"
+      font-weight="700"
+      fill="#e0af68"
+      filter="url(#glow)">14</text>
+
+    <!-- Label -->
+    <text x="350" y="118"
+      text-anchor="middle"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="9"
+      font-weight="600"
+      fill="#565f89"
+      letter-spacing="0.8">LONGEST STREAK</text>
+  </g>
+
+  <g class="fi-4">
+    <!-- Pillar background -->
+    <rect x="464" y="54" width="212" height="72" rx="10"
+      fill="url(#pillar-grad)" stroke="#292e42" stroke-width="1"/>
+
+    <!-- Icon -->
+    <text x="570" y="74"
+      text-anchor="middle"
+      font-size="16">📈</text>
+
+    <!-- Large metric number -->
+    <text x="570" y="102"
+      text-anchor="middle"
+      font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace"
+      font-size="24"
+      font-weight="700"
+      fill="#7dcfff"
+      filter="url(#glow)">405</text>
+
+    <!-- Label -->
+    <text x="570" y="118"
+      text-anchor="middle"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="9"
+      font-weight="600"
+      fill="#565f89"
+      letter-spacing="0.8">TOTAL CONTRIBUTIONS</text>
+  </g>
+  
+  <!-- Contribution Intensity Strip -->
+  <g class="fi-4">
+    <!-- Strip label -->
+    <text x="24" y="134"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="8"
+      font-weight="600"
+      fill="#565f89"
+      letter-spacing="0.6">CONTRIBUTION ACTIVITY · LAST 90 DAYS</text>
+
+    <!-- Intensity bars -->
+    <rect x="24.0" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="31.3" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="38.5" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="45.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="53.0" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="60.3" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="67.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="74.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="82.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="89.3" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="96.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="103.9" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="111.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="118.4" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="125.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="132.9" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="140.2" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="147.4" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="154.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="162.0" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="169.2" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="176.5" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="183.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="191.0" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="198.3" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="205.5" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="212.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="220.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="227.3" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="234.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="241.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="249.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="256.4" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="263.6" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="270.9" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="278.1" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="285.4" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="292.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="299.9" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="307.2" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="314.4" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="321.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="329.0" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="336.2" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="343.5" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="350.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="358.0" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="365.3" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="372.5" y="148" width="5.8" height="24" rx="1.5" ry="1.5" fill="#26a96e" opacity="0.90" class="strip-bar"/>
+    <rect x="379.8" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="387.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="394.3" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="401.6" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="408.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="416.1" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="423.4" y="148" width="5.8" height="24" rx="1.5" ry="1.5" fill="#26a96e" opacity="0.90" class="strip-bar"/>
+    <rect x="430.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="437.9" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="445.1" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="452.4" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="459.7" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="466.9" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="474.2" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="481.4" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="488.7" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="496.0" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="503.2" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="510.5" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="517.8" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="525.0" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="532.3" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="539.5" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="546.8" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="554.1" y="148" width="5.8" height="24" rx="1.5" ry="1.5" fill="#26a96e" opacity="0.90" class="strip-bar"/>
+    <rect x="561.3" y="148" width="5.8" height="24" rx="1.5" ry="1.5" fill="#26a96e" opacity="0.90" class="strip-bar"/>
+    <rect x="568.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="575.8" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="583.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="590.4" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="597.6" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="604.9" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="612.1" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="619.4" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="626.7" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="633.9" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="641.2" y="156" width="5.8" height="16" rx="1.5" ry="1.5" fill="#1e7a5e" opacity="0.80" class="strip-bar"/>
+    <rect x="648.5" y="140" width="5.8" height="32" rx="1.5" ry="1.5" fill="#9ece6a" opacity="1.00" class="strip-bar"/>
+    <rect x="655.7" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+    <rect x="663.0" y="170" width="5.8" height="2" rx="1.5" ry="1.5" fill="#1e2035" opacity="0.30" class="strip-bar"/>
+    <rect x="670.2" y="164" width="5.8" height="8" rx="1.5" ry="1.5" fill="#164e3b" opacity="0.70" class="strip-bar"/>
+  </g>
+  
+  <!-- Footer -->
+  <g class="fi-5">
+    <!-- Decorative separator -->
+    <line x1="24" y1="202" x2="676" y2="202"
+      stroke="#292e42" stroke-width="0.75" opacity="0.5"/>
+
+    <!-- Footer text -->
+    <text x="350" y="210"
+      text-anchor="middle"
+      font-family="'Inter', 'Segoe UI', system-ui, sans-serif"
+      font-size="8"
+      fill="#3b4261"
+      letter-spacing="0.3">Updated automatically via GitHub Actions · Data from GitHub GraphQL API</text>
+  </g>
+
+</svg>
