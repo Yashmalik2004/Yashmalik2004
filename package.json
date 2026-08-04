@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "generate": "tsx scripts/generate-stats.ts",
+    "generate:profile": "tsx scripts/generate-profile.ts",
+    "generate:all": "tsx scripts/generate-stats.ts && tsx scripts/generate-profile.ts",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {

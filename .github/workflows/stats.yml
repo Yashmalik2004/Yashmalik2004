@@ -48,26 +48,29 @@ jobs:
       # 5. Run the generator — fetches from GitHub GraphQL and writes SVG
       - name: "Generate stats SVG"
         env:
-          # GITHUB_TOKEN is automatically provided by GitHub Actions
-          # It has read:user scope which is all we need for the contribution calendar
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Your GitHub username — change this if you fork the repo
           GITHUB_LOGIN: "Yashmalik2004"
         run: npm run generate
 
-      # 6. Commit and push only if the SVG actually changed
-      #    Uses --quiet to suppress output on no-op runs
+      # 5b. Run the profile summary generator
+      - name: "Generate profile summary SVG"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_LOGIN: "Yashmalik2004"
+        run: npm run generate:profile
+
+      # 6. Commit and push only if the SVGs actually changed
       - name: "Commit changes (if any)"
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage only the generated SVG
+          # Stage both generated SVGs
           git add assets/stats/github-stats.svg
+          git add assets/stats/profile-summary.svg
 
-          # Exit 0 (success) if nothing changed — don't create empty commits
           git diff --cached --quiet && echo "⏭️  No changes detected, skipping commit." && exit 0
 
-          git commit -m "chore(stats): update github-stats.svg [skip ci]"
+          git commit -m "chore(stats): update stats cards [skip ci]"
           git push
-          echo "✅ SVG committed and pushed."
+          echo "✅ SVGs committed and pushed."

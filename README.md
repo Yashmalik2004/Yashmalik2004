@@ -243,25 +243,15 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Profile Summary </b>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Yashmalik2004&theme=tokyonight" width="96%"/>
-</div>
-
-<br/>
-
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Yashmalik2004&theme=tokyonight"/>
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yashmalik2004&theme=tokyonight"/>
+  <a href="https://github.com/Yashmalik2004">
+    <img
+      src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/stats/profile-summary.svg"
+      alt="GitHub Profile Summary"
+      width="900"
+    />
+  </a>
 </p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Yashmalik2004&theme=tokyonight"/>
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Yashmalik2004&theme=tokyonight&utcOffset=5.5"/>
-</p>
-
-<br/>
 
 ---
 
