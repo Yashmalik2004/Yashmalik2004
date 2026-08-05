@@ -1,4 +1,3 @@
-
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/edits/graphic-stat/dark.svg"
