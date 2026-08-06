@@ -1,16 +1,4 @@
-/**
- * scripts/generate-profile.ts
- *
- * Entry-point for the Profile Summary SVG generator.
- *
- * Flow:
- *   1. Fetch ProfileData from GitHub GraphQL  (profileStats.ts)
- *   2. Render SVG                             (profileSvg.ts)
- *   3. Write assets/stats/profile-summary.svg
- *
- * Run: npx tsx scripts/generate-profile.ts
- * Env: GITHUB_TOKEN, GITHUB_LOGIN
- */
+
 
 import { writeFile, mkdir } from "node:fs/promises";
 import { join, dirname }    from "node:path";
