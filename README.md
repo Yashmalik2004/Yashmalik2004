@@ -11,6 +11,18 @@
 
 ---
 
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
+
+<p align="center">
+
+<a href="https://github.com/Yashmalik2004/Yashmalik2004">
+  <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/stats/github-stats.svg" alt="GitHub Stats Card" width="700"/>
+</a>
+
+</p>
+
+---
+
 ##  🚀 About Me
 
 <p align="center">
@@ -204,20 +216,6 @@
   - 2 months training in Linux.
   - Build my 'SAY' encryption & decryption project under this internship.
   - certif( shared below ).
-    
-    
----
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
-
-<p align="center">
-
-<a href="https://github.com/Yashmalik2004/Yashmalik2004">
-  <img src="https://raw.githubusercontent.com/Yashmalik2004/Yashmalik2004/main/assets/stats/github-stats.svg" alt="GitHub Stats Card" width="700"/>
-</a>
-
-</p>
-
 
 ---
 
