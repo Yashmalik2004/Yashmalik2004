@@ -5,9 +5,9 @@
 
   <title>GitHub Profile Summary — @Yashmalik2004</title>
   <desc>
-    4 stars, 597 commits,
+    4 stars, 599 commits,
     50 PRs, 1 issues,
-    38 repositories.
+    37 repositories.
   </desc>
 
   
@@ -136,7 +136,7 @@
     <text x="450" y="76" text-anchor="middle" font-size="14">💻</text>
     <text x="450" y="100" text-anchor="middle"
       font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="22" font-weight="700"
-      fill="#9ece6a" filter="url(#glow)">597</text>
+      fill="#9ece6a" filter="url(#glow)">599</text>
     <text x="450" y="116" text-anchor="middle"
       font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="8" font-weight="600"
       fill="#565f89" letter-spacing=".8">COMMITS (2YR)</text>
@@ -167,7 +167,7 @@
     <g class="f3">
       <text x="110.8" y="175"
         text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13"
-        font-weight="700" fill="#c0caf5">📦 38</text>
+        font-weight="700" fill="#c0caf5">📦 37</text>
       <text x="110.8" y="189"
         text-anchor="middle" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="8"
         fill="#565f89" letter-spacing=".6">PUBLIC REPOS</text>
@@ -175,7 +175,7 @@
     <g class="f3">
       <text x="280.4" y="175"
         text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13"
-        font-weight="700" fill="#c0caf5">👥 7</text>
+        font-weight="700" fill="#c0caf5">👥 6</text>
       <text x="280.4" y="189"
         text-anchor="middle" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="8"
         fill="#565f89" letter-spacing=".6">FOLLOWERS</text>
@@ -199,7 +199,7 @@
     <g class="f3">
       <text x="789.1999999999999" y="175"
         text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13"
-        font-weight="700" fill="#c0caf5">📈 619</text>
+        font-weight="700" fill="#c0caf5">📈 620</text>
       <text x="789.1999999999999" y="189"
         text-anchor="middle" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="8"
         fill="#565f89" letter-spacing=".6">THIS YEAR</text>
@@ -218,7 +218,7 @@
   </g>
 
   <!-- Segmented color bar -->
-  <rect x="26.0" y="244" width="805.6" height="9" rx="2.5" fill="#3572A5" class="lang-bar"/><rect x="833.1" y="244" width="20.4" height="9" rx="2.5" fill="#fedf5b" class="lang-bar"/><rect x="855.0" y="244" width="7.6" height="9" rx="2.5" fill="#e34c26" class="lang-bar"/><rect x="864.1" y="244" width="7.6" height="9" rx="2.5" fill="#3178c6" class="lang-bar"/><rect x="873.2" y="244" width="6.8" height="9" rx="2.5" fill="#f1e05a" class="lang-bar"/>
+  <rect x="26.0" y="244" width="807.3" height="9" rx="2.5" fill="#3572A5" class="lang-bar"/><rect x="834.8" y="244" width="20.4" height="9" rx="2.5" fill="#fedf5b" class="lang-bar"/><rect x="856.6" y="244" width="7.6" height="9" rx="2.5" fill="#e34c26" class="lang-bar"/><rect x="865.8" y="244" width="6.8" height="9" rx="2.5" fill="#3178c6" class="lang-bar"/><rect x="874.1" y="244" width="5.9" height="9" rx="2.5" fill="#f1e05a" class="lang-bar"/>
 
   <!-- Legend -->
   
@@ -232,11 +232,11 @@
       <!-- Percentage -->
       <text x="152" y="273"
         font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10"
-        fill="#565f89">95.0%</text>
+        fill="#565f89">95.2%</text>
       <!-- Mini bar track -->
       <rect x="182" y="265" width="80" height="6" rx="3" fill="#222436"/>
       <!-- Mini bar fill -->
-      <rect x="182" y="265" width="76" height="6" rx="3" fill="#3572A5" opacity=".85" class="lang-bar"/>
+      <rect x="182" y="265" width="76.16000000000001" height="6" rx="3" fill="#3572A5" opacity=".85" class="lang-bar"/>
     </g>
     <g class="f5">
       <!-- Color dot -->
@@ -280,11 +280,11 @@
       <!-- Percentage -->
       <text x="588" y="299"
         font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10"
-        fill="#565f89">0.9%</text>
+        fill="#565f89">0.8%</text>
       <!-- Mini bar track -->
       <rect x="618" y="291" width="80" height="6" rx="3" fill="#222436"/>
       <!-- Mini bar fill -->
-      <rect x="618" y="291" width="0.7200000000000001" height="6" rx="3" fill="#3178c6" opacity=".85" class="lang-bar"/>
+      <rect x="618" y="291" width="0.64" height="6" rx="3" fill="#3178c6" opacity=".85" class="lang-bar"/>
     </g>
     <g class="f5">
       <!-- Color dot -->
@@ -296,11 +296,11 @@
       <!-- Percentage -->
       <text x="152" y="325"
         font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10"
-        fill="#565f89">0.8%</text>
+        fill="#565f89">0.7%</text>
       <!-- Mini bar track -->
       <rect x="182" y="317" width="80" height="6" rx="3" fill="#222436"/>
       <!-- Mini bar fill -->
-      <rect x="182" y="317" width="0.64" height="6" rx="3" fill="#f1e05a" opacity=".85" class="lang-bar"/>
+      <rect x="182" y="317" width="0.5599999999999999" height="6" rx="3" fill="#f1e05a" opacity=".85" class="lang-bar"/>
     </g>
   
   <g class="f6">
