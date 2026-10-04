@@ -10,7 +10,7 @@
   <desc>
     Current streak: 6 days.
     Longest streak: 23 days.
-    Total contributions: 666.
+    Total contributions: 667.
   </desc>
 
   
@@ -180,7 +180,7 @@
       font-size="26"
       font-weight="700"
       fill="#7dcfff"
-      filter="url(#glow)">666</text>
+      filter="url(#glow)">667</text>
 
     <!-- Label -->
     <text x="570" y="126"
