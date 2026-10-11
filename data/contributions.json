@@ -2,11 +2,6 @@
     "username": "Yashmalik2004",
     "days": [
         {
-            "date": "2025-10-05",
-            "count": 9,
-            "level": 3
-        },
-        {
             "date": "2025-10-12",
             "count": 0,
             "level": 0
@@ -267,9 +262,9 @@
             "level": 1
         },
         {
-            "date": "2025-10-06",
-            "count": 0,
-            "level": 0
+            "date": "2026-10-11",
+            "count": 2,
+            "level": 1
         },
         {
             "date": "2025-10-13",
@@ -532,11 +527,6 @@
             "level": 1
         },
         {
-            "date": "2025-10-07",
-            "count": 0,
-            "level": 0
-        },
-        {
             "date": "2025-10-14",
             "count": 0,
             "level": 0
@@ -795,11 +785,6 @@
             "date": "2026-10-06",
             "count": 2,
             "level": 1
-        },
-        {
-            "date": "2025-10-08",
-            "count": 0,
-            "level": 0
         },
         {
             "date": "2025-10-15",
@@ -1062,11 +1047,6 @@
             "level": 1
         },
         {
-            "date": "2025-10-09",
-            "count": 0,
-            "level": 0
-        },
-        {
             "date": "2025-10-16",
             "count": 0,
             "level": 0
@@ -1324,11 +1304,6 @@
         {
             "date": "2026-10-08",
             "count": 2,
-            "level": 1
-        },
-        {
-            "date": "2025-10-10",
-            "count": 1,
             "level": 1
         },
         {
@@ -1592,11 +1567,6 @@
             "level": 1
         },
         {
-            "date": "2025-10-11",
-            "count": 0,
-            "level": 0
-        },
-        {
             "date": "2025-10-18",
             "count": 0,
             "level": 0
@@ -1853,21 +1823,21 @@
         },
         {
             "date": "2026-10-10",
-            "count": 0,
-            "level": 0
+            "count": 5,
+            "level": 2
         }
     ],
     "stats": {
-        "total_contributions": 676,
-        "current_streak": 0,
-        "longest_streak": 15,
+        "total_contributions": 673,
+        "current_streak": 11,
+        "longest_streak": 16,
         "best_day": {
             "date": "2026-07-14",
             "count": 66,
             "level": 4
         },
         "monthly_totals": {
-            "2025-10": 12,
+            "2025-10": 2,
             "2025-11": 13,
             "2025-12": 0,
             "2026-01": 3,
@@ -1879,7 +1849,7 @@
             "2026-07": 239,
             "2026-08": 153,
             "2026-09": 101,
-            "2026-10": 31
+            "2026-10": 38
         }
     }
 }
