@@ -218,7 +218,7 @@
   </g>
 
   <!-- Segmented color bar -->
-  <rect x="26.0" y="244" width="801.4" height="9" rx="2.5" fill="#3572A5" class="lang-bar"/><rect x="828.9" y="244" width="20.4" height="9" rx="2.5" fill="#fedf5b" class="lang-bar"/><rect x="850.7" y="244" width="11.9" height="9" rx="2.5" fill="#3178c6" class="lang-bar"/><rect x="864.1" y="244" width="7.6" height="9" rx="2.5" fill="#e34c26" class="lang-bar"/><rect x="873.2" y="244" width="6.8" height="9" rx="2.5" fill="#f1e05a" class="lang-bar"/>
+  <rect x="26.0" y="244" width="799.7" height="9" rx="2.5" fill="#3572A5" class="lang-bar"/><rect x="827.2" y="244" width="20.4" height="9" rx="2.5" fill="#fedf5b" class="lang-bar"/><rect x="849.0" y="244" width="14.4" height="9" rx="2.5" fill="#3178c6" class="lang-bar"/><rect x="864.9" y="244" width="7.6" height="9" rx="2.5" fill="#e34c26" class="lang-bar"/><rect x="874.1" y="244" width="6.8" height="9" rx="2.5" fill="#f1e05a" class="lang-bar"/>
 
   <!-- Legend -->
   
@@ -232,11 +232,11 @@
       <!-- Percentage -->
       <text x="152" y="273"
         font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10"
-        fill="#565f89">94.5%</text>
+        fill="#565f89">94.3%</text>
       <!-- Mini bar track -->
       <rect x="182" y="265" width="80" height="6" rx="3" fill="#222436"/>
       <!-- Mini bar fill -->
-      <rect x="182" y="265" width="75.6" height="6" rx="3" fill="#3572A5" opacity=".85" class="lang-bar"/>
+      <rect x="182" y="265" width="75.44" height="6" rx="3" fill="#3572A5" opacity=".85" class="lang-bar"/>
     </g>
     <g class="f5">
       <!-- Color dot -->
@@ -264,11 +264,11 @@
       <!-- Percentage -->
       <text x="152" y="299"
         font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10"
-        fill="#565f89">1.4%</text>
+        fill="#565f89">1.7%</text>
       <!-- Mini bar track -->
       <rect x="182" y="291" width="80" height="6" rx="3" fill="#222436"/>
       <!-- Mini bar fill -->
-      <rect x="182" y="291" width="1.1199999999999999" height="6" rx="3" fill="#3178c6" opacity=".85" class="lang-bar"/>
+      <rect x="182" y="291" width="1.36" height="6" rx="3" fill="#3178c6" opacity=".85" class="lang-bar"/>
     </g>
     <g class="f5">
       <!-- Color dot -->
